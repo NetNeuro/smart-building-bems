@@ -1,0 +1,9 @@
+{
+  "CPU": "AMD EPYC 9V74 80-Core Processor",
+  "RAM": "5.9Gi",
+  "GPU": "None used (CPU-only)",
+  "Python": "3.13.5",
+  "PyTorch": "2.10.0+cpu",
+  "NumPy": "2.3.5",
+  "Pandas": "2.2.3"
+}

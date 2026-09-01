@@ -1,0 +1,8 @@
+Baseline,Blocks,DOpt MAE,Baseline MAE,Raw p,Holm p,Significant
+DRA-GRU,168,14.398,13.931,1,1,No
+DRA-LSTM,168,14.398,14.651,0.0303,0.151,No
+GRU,168,14.398,14.786,0.00067,0.00402,Yes
+LSTM,168,14.398,15.175,3.38e-08,2.37e-07,Yes
+Transformer,168,14.398,10.772,1,1,No
+Persistence,168,14.398,13.431,1,1,No
+Random Forest,168,14.398,19.599,0.806,1,No

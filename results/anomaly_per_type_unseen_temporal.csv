@@ -1,0 +1,3 @@
+fault_type,hours,detection_rate,mean_probability
+bias,5,0.4,0.16521555143438915
+spike,17,0.9411764705882353,0.6066620500690029

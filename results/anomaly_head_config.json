@@ -1,0 +1,23 @@
+{
+  "classifier": "GradientBoostingClassifier",
+  "n_estimators": 150,
+  "max_depth": 3,
+  "learning_rate": 0.05,
+  "calibration_partition": "first 60% of validation",
+  "threshold_partition": "last 40% of validation",
+  "threshold": 0.05737991266375545,
+  "features": [
+    "abs_rel_residual",
+    "signed_rel_residual",
+    "jump_from_meter_anchor",
+    "dev_lag2",
+    "dev_lag24",
+    "abs_residual_sq",
+    "jump_sq",
+    "mean_PSNN_spike_probability",
+    "occupancy",
+    "temperature",
+    "humidity",
+    "solar"
+  ]
+}

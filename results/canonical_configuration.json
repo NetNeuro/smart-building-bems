@@ -1,0 +1,94 @@
+{
+  "features_all": [
+    "temp",
+    "humidity",
+    "solar",
+    "occupancy",
+    "log_area",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "lag1",
+    "lag2",
+    "lag6",
+    "lag12",
+    "lag24",
+    "roll24"
+  ],
+  "features_MOA": [
+    "humidity",
+    "solar",
+    "occupancy",
+    "log_area",
+    "dow_sin",
+    "dow_cos",
+    "lag1",
+    "lag2",
+    "lag24"
+  ],
+  "MOA_feature_count": 9,
+  "MOA_note": "Canonical mask originates from network-evaluated MOA. lag1 is mandatory; the remaining 14 variables are searchable.",
+  "MOA_lambda": 0.006,
+  "DOA_final": {
+    "channels": 20,
+    "lr": 0.0015287143259818435,
+    "dropout": 0.08,
+    "beta": 0.9431572529176961,
+    "theta": 0.36879562783560627,
+    "tau": 0.18,
+    "kappa": 0.35
+  },
+  "DOA_ranges": {
+    "channels": [
+      12,
+      28
+    ],
+    "learning_rate": [
+      0.00044668359215096305,
+      0.001584893192461114
+    ],
+    "dropout": [
+      0.02,
+      0.22
+    ],
+    "beta": [
+      0.72,
+      0.95
+    ],
+    "theta": [
+      0.3,
+      0.7
+    ]
+  },
+  "DOA_schedule": "5 iterations: 3 exploration + 2 exploitation",
+  "DOA_proxy_training": "1 epoch on 1,800 training windows; 600 validation windows",
+  "final_training": "5 epochs on 6,800 evenly subsampled training windows; AdamW; batch=256; no LR schedule; no early stopping",
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "sequence_length_h": 24,
+  "forecast_horizons_h": [
+    1,
+    6
+  ],
+  "EIA_2025_commercial_average_USD_per_kWh": 0.1341,
+  "forecast_anchor": "observed meter[t-1]",
+  "supervised_target": "simulation-only clean counterfactual load",
+  "anomaly_probability_threshold": 0.05737991266375545,
+  "stability_seeds": [
+    11,
+    23,
+    37,
+    41,
+    53,
+    67,
+    71,
+    83,
+    97,
+    109
+  ],
+  "stability_comparison": "Exact encoder-matched DOptDRPSNN vs DRA-GRU head replacement; same 20-channel encoder, LR, dropout, epochs and data."
+}

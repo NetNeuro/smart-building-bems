@@ -1,0 +1,9 @@
+Variable family,Source,Cadence,Treatment
+"Temperature, humidity, solar proxy",Simulated weather/sensor,Hourly,Causal imputation; training-only scaling
+Occupancy,Simulated schedule/sensor,Hourly,Past-only imputation + quality flag
+Log floor area,DOE-reference structural prior,Static,log(1+area)
+Hour/day sine and cosine,Timestamp-derived,Hourly,Deterministic
+"Lag-1, lag-2, lag-6, lag-12, lag-24 load",Historical observed meter load,Hourly,Past meter values only; causal
+24-h rolling mean,Historical load,Hourly,Trailing-only window
+Clean counterfactual load,Simulation-only,Hourly,Simulation-only training/evaluation target; never used as a deployment-time anchor
+Observed meter / anomaly label,Simulation-only,Hourly,Used for residual anomaly calibration/evaluation

@@ -1,0 +1,16 @@
+Parameter,Value,Metric,Interpretation
+DOA forgetting fraction,0.20,1.2130,Short-search validation standardized RMSE
+DOA forgetting fraction,0.40,1.2137,Short-search validation standardized RMSE
+DOA forgetting fraction,0.60,1.2116,Short-search validation standardized RMSE
+PSNN theta_s,0.300,28.006,3-epoch unseen RMSE (kWh)
+PSNN theta_s,0.369,28.912,3-epoch unseen RMSE (kWh)
+PSNN theta_s,0.500,28.885,3-epoch unseen RMSE (kWh)
+PSNN theta_s,0.700,28.837,3-epoch unseen RMSE (kWh)
+Leave-one-out log_area,-,28.607,8-feature 2-epoch unseen RMSE
+Leave-one-out dow_cos,-,28.596,8-feature 2-epoch unseen RMSE
+Leave-one-out solar,-,28.672,8-feature 2-epoch unseen RMSE
+Anomaly probability threshold,0.010,0.321,Unseen-building F1
+Anomaly probability threshold,0.017,0.414,Unseen-building F1
+Anomaly probability threshold,0.057,0.632,Unseen-building F1
+Anomaly probability threshold,0.097,0.682,Unseen-building F1
+Anomaly probability threshold,0.137,0.704,Unseen-building F1

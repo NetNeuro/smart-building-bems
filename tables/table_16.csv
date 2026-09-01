@@ -1,0 +1,7 @@
+Fault type,Hours,Detection rate,Mean probability
+spike,63,96.8%,0.581
+stuck,49,100.0%,0.714
+bias,62,79.0%,0.458
+schedule,47,74.5%,0.564
+hvac_deg,52,65.4%,0.303
+drift,51,49.0%,0.279

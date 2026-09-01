@@ -1,0 +1,7 @@
+Fault type,Hours,Episodes,Mean duration h,Min,Max,Mean rel. severity
+bias,239,36,6.6,4,11,0.312
+drift,188,24,7.8,3,11,0.309
+hvac_deg,176,24,7.3,3,11,0.163
+schedule,181,24,7.5,4,11,0.597
+spike,276,36,7.7,1,11,0.821
+stuck,168,24,7.0,2,10,0.274

@@ -1,0 +1,1 @@
+VERIFY PASSED: raw outputs reproduce the manuscript summaries checked for Tables 8-18 and the 10-seed stability claim.

@@ -1,0 +1,38 @@
+{
+  "title": "DOptDRPSNN-EMS: reproducibility package for IoT-enabled smart building energy management with integrated load forecasting, anomaly detection and control",
+  "description": "<p>Executable reproducibility package accompanying the paper. Contains the synthetic DOE-reference-inspired benchmark, leakage-controlled split definitions, the frozen canonical configuration, executable scripts for forecasting, ablation, ten-seed encoder-matched stability, anomaly calibration and supervisory-control experiments, and the exact raw per-seed outputs used to construct every reported mean and standard deviation.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Milyani, Ahmad H.",
+      "affiliation": "King Abdulaziz University, Jeddah, Saudi Arabia"
+    },
+    {
+      "name": "Kamal, Arbab Mohammad",
+      "affiliation": "Indian Institute of Technology Patna, Patna, India"
+    },
+    {
+      "name": "Kamal, Atif Mohammad",
+      "affiliation": "Indian Institute of Technology Patna, Patna, India"
+    },
+    {
+      "name": "Pasha, Amjad Ali",
+      "affiliation": "King Abdulaziz University, Jeddah, Saudi Arabia"
+    },
+    {
+      "name": "Khan Mohd, Tauheed",
+      "affiliation": "Eastern Michigan University, Ypsilanti, MI, USA"
+    }
+  ],
+  "keywords": [
+    "building energy management",
+    "internet of things",
+    "load forecasting",
+    "anomaly detection",
+    "probabilistic spiking neural network",
+    "supervisory control",
+    "reproducibility"
+  ]
+}

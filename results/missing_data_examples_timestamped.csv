@@ -1,0 +1,14 @@
+building_id,timestamp,channel,original_value,fault,handling
+9,2025-02-22 10:00:00,humidity,0.6141904177927009,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit
+9,2025-02-22 11:00:00,humidity,0.6140132902697314,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit
+9,2025-02-22 12:00:00,humidity,0.6353958467950497,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit
+9,2025-02-22 13:00:00,humidity,0.6867545375907191,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit
+9,2025-02-22 14:00:00,humidity,0.6217871050102743,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit
+9,2025-02-22 15:00:00,humidity,0.6507204770285948,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit
+10,2025-02-23 14:00:00,occupancy,0.0064647910002178,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit
+10,2025-02-23 15:00:00,occupancy,0.0542181995935373,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit
+10,2025-02-23 16:00:00,occupancy,0.0457558205341041,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit
+10,2025-02-23 17:00:00,occupancy,0.0,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit
+11,2025-02-25 08:00:00,solar,0.3505799818052882,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit
+11,2025-02-25 09:00:00,solar,0.5115279708102962,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit
+11,2025-02-25 10:00:00,solar,0.6181937491120925,injected NaN stress-test,past-only interpolation / training median if gap exceeds limit

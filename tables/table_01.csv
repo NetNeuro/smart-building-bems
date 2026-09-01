@@ -1,0 +1,13 @@
+Study,Approach,Relevance,Remaining limitation
+Khan et al. [18],AI building power forecasting,Intelligent BEMS forecasting,No explicit fault-labelled control validation
+Faiz et al. [19],CNN-LSTM / Transformer,Predictive building-environment control,Task-specific; compute burden
+Balakumar et al. [22],RNN-LSTM DSM,Real-time demand-side management,Dataset/architecture dependence
+Wang et al. [17],Adaptive federated DL,Forecasting + anomaly prediction,Federated heterogeneity / communication
+Spencer et al. [8],Transformer transfer learning,Cross-building forecasting,Forecasting only
+Sarmento et al. [16],Federated CNN-LSTM,Privacy-aware energy forecasting,Edge and coordination overhead
+Joha et al. [26],IIoT forecasting + anomaly detection,Joint operational analytics,Different anomaly/control setting
+Li and Xu [27],Evolutionary + ML BEMS,Optimization-aware design,Metaheuristic cost
+Xian and Feng [28],MOA,Discrete engineering optimization,Not building-specific
+Lang and Gao [31],DOA,Continuous engineering optimization,Not building-specific
+Soleimanijavid et al. [14],Occupant-centric controls review,Deployment/comfort barriers,Real-world integration remains difficult
+Bartoldson et al. [35],Compute-efficient DL review,Fair computational evaluation,"General DL, not BEMS-specific"

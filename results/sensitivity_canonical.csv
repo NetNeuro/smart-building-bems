@@ -1,0 +1,22 @@
+parameter,value,primary_metric,selected_features,secondary_metric
+DOA forgetting fraction,0.2,1.2129564743472407,,
+DOA forgetting fraction,0.4,1.2137406913172506,,
+DOA forgetting fraction,0.6,1.2116001408052661,,
+PSNN firing threshold,0.3,28.005943303637782,9.0,0.7355127205715082
+PSNN firing threshold,0.36879562783560627,28.911751525521886,9.0,0.7181271903593214
+PSNN firing threshold,0.5,28.88544588508869,9.0,0.7186398864882411
+PSNN firing threshold,0.7,28.837033865622367,9.0,0.719582215491476
+MOA local leave-one-feature-out: humidity,0.0,28.436678582945955,8.0,0.727314454626018
+MOA local leave-one-feature-out: solar,0.0,28.671894008584783,8.0,0.7227847333066973
+MOA local leave-one-feature-out: occupancy,0.0,28.437404292165162,8.0,0.7273005364788093
+MOA local leave-one-feature-out: log_area,0.0,28.60689616122646,8.0,0.72404017685382
+MOA local leave-one-feature-out: dow_sin,0.0,28.604614411671573,8.0,0.7240841974345986
+MOA local leave-one-feature-out: dow_cos,0.0,28.596108855889828,8.0,0.7242482596592481
+MOA local leave-one-feature-out: lag1,0.0,28.621385044586024,8.0,0.7237605685933923
+MOA local leave-one-feature-out: lag2,0.0,28.627320452640664,8.0,0.7236459854765804
+MOA local leave-one-feature-out: lag24,0.0,28.65728446105675,8.0,0.7230671672325618
+Anomaly probability threshold,0.33499999999999996,0.16564073866815893,,
+Anomaly probability threshold,0.40499999999999997,0.16627906976744186,,
+Anomaly probability threshold,0.485,0.18134263295553618,,
+Anomaly probability threshold,0.565,0.11059907834101383,,
+Anomaly probability threshold,0.635,0.08695652173913043,,

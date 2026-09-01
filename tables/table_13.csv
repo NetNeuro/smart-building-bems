@@ -1,0 +1,5 @@
+Strategy,Features,RMSE kWh,MAE kWh,R2
+No metaheuristic,15,28.924 +/- 0.058,13.429,0.718
+MOA only,9,28.951 +/- 0.036,13.421,0.717
+DOA only,15,28.879 +/- 0.029,13.389,0.719
+MOA→DOA,9,28.615 +/- 0.259,13.328,0.724

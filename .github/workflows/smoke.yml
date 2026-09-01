@@ -1,0 +1,39 @@
+name: smoke
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Check benchmark integrity
+        run: |
+          cd data
+          sha256sum -c ../checksums.sha256 || (echo "::error::benchmark digest mismatch" && exit 1)
+
+      - name: Verify archived results reproduce the manuscript summaries
+        run: python scripts/verify_raw_results.py
+
+      - name: Regenerate figures from archived results
+        run: python scripts/make_figures.py
+
+      - name: Upload regenerated figures
+        uses: actions/upload-artifact@v4
+        with:
+          name: figures
+          path: figures/

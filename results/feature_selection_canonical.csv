@@ -1,0 +1,13 @@
+selector,seed,n_features,features,RMSE,MAE,MAPE,R2
+All features,11,15,"temp,humidity,solar,occupancy,log_area,hour_sin,hour_cos,dow_sin,dow_cos,lag1,lag2,lag6,lag12,lag24,roll24",28.668577497718662,13.276270168961195,13.682281824611989,0.7228488612133273
+All features,23,15,"temp,humidity,solar,occupancy,log_area,hour_sin,hour_cos,dow_sin,dow_cos,lag1,lag2,lag6,lag12,lag24,roll24",28.412377542573854,13.37950803208409,13.76591276761462,0.7277803114957813
+All features,37,15,"temp,humidity,solar,occupancy,log_area,hour_sin,hour_cos,dow_sin,dow_cos,lag1,lag2,lag6,lag12,lag24,roll24",28.474388267438254,13.208890437640205,13.654564646761882,0.7265907622381127
+Random-k,11,9,"lag6,solar,lag1,temp,dow_cos,hour_cos,log_area,roll24,hour_sin",28.26871053402033,13.200667245960874,13.65076068053015,0.7305263056373452
+Random-k,23,9,"lag6,solar,lag1,temp,dow_cos,hour_cos,log_area,roll24,hour_sin",28.685356991761687,13.410243891692316,13.810820907757396,0.7225243374855368
+Random-k,37,9,"lag6,solar,lag1,temp,dow_cos,hour_cos,log_area,roll24,hour_sin",28.6731414791169,13.253403156612157,13.63874446952192,0.7227606103520606
+Correlation-k,11,9,"hour_sin,occupancy,lag1,lag2,lag6,humidity,temp,solar,lag24",28.890538311527525,13.406009514165424,13.78224696337699,0.7185406716804466
+Correlation-k,23,9,"hour_sin,occupancy,lag1,lag2,lag6,humidity,temp,solar,lag24",28.467531830575002,13.19533752761723,13.570788217147461,0.7267224165136643
+Correlation-k,37,9,"hour_sin,occupancy,lag1,lag2,lag6,humidity,temp,solar,lag24",28.448252705173605,13.293810420911097,13.747483027758134,0.7270924358617639
+MOA,11,9,"humidity,solar,occupancy,log_area,dow_sin,dow_cos,lag1,lag2,lag24",28.761117028248197,13.332006079441003,13.736834691742054,0.7210567367137151
+MOA,23,9,"humidity,solar,occupancy,log_area,dow_sin,dow_cos,lag1,lag2,lag24",28.498206769334026,13.249004025495417,13.64345031814867,0.7261331634952195
+MOA,37,9,"humidity,solar,occupancy,log_area,dow_sin,dow_cos,lag1,lag2,lag24",28.911853240796987,13.464451879685063,13.868193485097704,0.7181252070259501

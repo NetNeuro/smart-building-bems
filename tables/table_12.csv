@@ -1,0 +1,5 @@
+Selector,Features,RMSE kWh,MAE kWh,R2
+All features,15,28.52 +/- 0.13,13.288,0.726
+Random-k,9,28.54 +/- 0.24,13.288,0.725
+Correlation-k,9,28.60 +/- 0.25,13.298,0.724
+MOA,9,28.72 +/- 0.21,13.348,0.722

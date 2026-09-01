@@ -1,0 +1,15 @@
+Item,Setting
+CPU / GPU,AMD EPYC 9V74 80-Core Processor / CPU-only
+RAM,5.9Gi
+Python / PyTorch,3.13.5 / 2.10.0+cpu
+Sequence / horizons,24 h input; 1 h headline and 6 h persistence challenge
+Final training,"5 epochs; 6,800 evenly subsampled windows; batch 256; AdamW; weight decay 1e-4"
+Learning-rate schedule / early stopping,None / none
+Independent seeds,"11, 23, 37 for primary tables; 10 seeds for encoder-matched stability test"
+Canonical DOptDRPSNN,9 features; 20 channels; lr 0.0015287; dropout 0.08; beta 0.9432; theta_s 0.3688
+PSNN,tau 0.18; soft-reset kappa 0.35
+MOA,lag-1 forced; 14 searchable variables; lambda 0.006; 74 network-evaluated candidates
+DOA,5x5 candidate evaluations; 3 exploration + 2 exploitation iterations
+DOA proxy,"1 epoch; 1,800 train + 600 validation windows"
+Baseline tuning,"Common validation-only screening over six candidate configurations per neural baseline; same final data, epochs and seeds. Small one-hour differences are not interpreted as optimizer-fair superiority."
+Anomaly head,"Gradient Boosting, 150 trees, depth 3, lr 0.05; validation threshold 0.0574"

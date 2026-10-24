@@ -30,7 +30,7 @@
     "reproducibility",
     "probabilistic spiking neural network"
   ],
-  "description": "R2 source code and release metadata for building load forecasting, anomaly detection and prospective supervisory replay. The complete numerical archive (frozen inputs, trained states, predictions and verifiers) is distributed as the GitHub v2.0.0 release attachment, identified by SHA-256 f234843a999c9884a5903a666ce23a5c98489109496d382540f20e1272864888. A source snapshot alone omits this large data/model archive. Software is MIT; author data/documentation retain CC BY 4.0 where granted; BDG2 inputs and derivatives retain separate upstream Attribution-ShareAlike terms. Component licenses and preparation disclosures are preserved.",
+  "description": "R2 source code and release metadata for building load forecasting, anomaly detection and prospective supervisory replay. The complete numerical archive (frozen inputs, trained states, predictions and verifiers) is published at Zenodo DOI 10.5281/zenodo.23624585, version v2.0.0-complete, and as the identical GitHub v2.0.0 release attachment (253,518,518 bytes; SHA-256 f234843a999c9884a5903a666ce23a5c98489109496d382540f20e1272864888). Packaging completion does not change scientific results. The earlier automatic source snapshot at 10.5281/zenodo.23624304 omits the large numerical archive. Software is MIT; author data/documentation retain CC BY 4.0 where granted; BDG2 inputs and derivatives retain separate upstream Attribution-ShareAlike terms. Component licenses and preparation disclosures are preserved.",
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.22253768",
@@ -41,6 +41,11 @@
       "identifier": "https://github.com/NetNeuro/smart-building-bems/releases/tag/v2.0.0",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23624585",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
     }
   ]
 }

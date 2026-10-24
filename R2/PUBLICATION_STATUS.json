@@ -5,12 +5,16 @@
   "github_release_asset": "Published; full public download checksum verified",
   "github_release_url": "https://github.com/NetNeuro/smart-building-bems/releases/tag/v2.0.0",
   "github_release_commit": "8ced9aa306ef4efa33896e87b292ba4ac185aaf7",
-  "zenodo_new_version": "Source snapshot published; complete numerical archive is on GitHub",
+  "zenodo_new_version": "Published; complete numerical package",
   "original_zenodo_version_doi": "10.5281/zenodo.22253768",
   "public_archive_bytes": 253518518,
   "public_archive_sha256": "f234843a999c9884a5903a666ce23a5c98489109496d382540f20e1272864888",
   "verified_on": "2026-10-25",
   "zenodo_source_version": "Published automatically by GitHub integration",
-  "zenodo_version_doi": "10.5281/zenodo.23624304",
-  "zenodo_complete_archive": "Pending deposit-owner access"
+  "zenodo_version_doi": "10.5281/zenodo.23624585",
+  "zenodo_complete_archive": "Published; server MD5 matches local archive",
+  "zenodo_source_version_doi": "10.5281/zenodo.23624304",
+  "zenodo_archival_version": "v2.0.0-complete",
+  "zenodo_record_url": "https://zenodo.org/records/23624585",
+  "public_archive_md5": "cd72077fd828f078ae85e6176ec2d322"
 }

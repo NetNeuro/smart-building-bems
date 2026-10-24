@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Cite this version of the reproducibility software and data using its Zenodo version record."
 type: software
 title: "Integrated Load Forecasting and Anomaly-Gated Supervisory Replay for Building Energy Management — R2 reproducibility package"
-version: v2.0.0
+version: v2.0.0-complete
 repository-code: "https://github.com/NetNeuro/smart-building-bems"
 authors:
   - family-names: Milyani
@@ -16,4 +16,4 @@ authors:
   - family-names: Khan Mohd
     given-names: Tauheed
 abstract: "Reproducible building load forecasting, anomaly detection and prospective supervisory replay. Component-specific licenses and upstream attribution are included."
-doi: 10.5281/zenodo.23624304
+doi: 10.5281/zenodo.23624585

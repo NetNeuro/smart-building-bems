@@ -11,11 +11,12 @@ Pasha; Tauheed Khan Mohd.
 The R2 source, metadata and complete archive are now available in the
 [v2.0.0 GitHub release](https://github.com/NetNeuro/smart-building-bems/releases/tag/v2.0.0).
 Download the attached [complete R2 ZIP](https://github.com/NetNeuro/smart-building-bems/releases/download/v2.0.0/JER-D-26-02810_R2_Public_Reproducibility_v2.0.0.zip).
-Its public download was verified against the SHA-256 below. Zenodo has archived
-the R2 source snapshot at [10.5281/zenodo.23624304](https://doi.org/10.5281/zenodo.23624304).
-That source snapshot omits the complete numerical ZIP; adding the full archive
-to Zenodo remains pending deposit-owner access. The complete data/model package
-is available from the GitHub release attachment above.
+Its public download was verified against the SHA-256 below. The identical complete
+archive is now published on [Zenodo: 10.5281/zenodo.23624585](https://doi.org/10.5281/zenodo.23624585),
+version **v2.0.0-complete**. This version completes the archival packaging of R2
+without changing the scientific results. The earlier automatic GitHub source
+snapshot is separately preserved at [10.5281/zenodo.23624304](https://doi.org/10.5281/zenodo.23624304);
+that source snapshot alone omits the large numerical archive.
 
 Published archive: `JER-D-26-02810_R2_Public_Reproducibility_v2.0.0.zip`
 
@@ -45,8 +46,9 @@ document-only assembly material are outside this public numerical distribution.
 
 ## Citation, license and earlier release
 
-CITATION.cff identifies the R2 software snapshot DOI. For complete numerical
-reproduction, also use the GitHub release ZIP identified by the SHA-256 above.
+CITATION.cff identifies the complete R2 archival deposit DOI. For numerical
+reproduction, download its ZIP from Zenodo or the identical GitHub release asset,
+identified by the SHA-256 above.
 The verified original version remains at
 [GitHub v1.0.0](https://github.com/NetNeuro/smart-building-bems/tree/v1.0.0),
 commit `54552ef6693a25ced7150064e205e254d8ded715`, and

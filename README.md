@@ -8,12 +8,14 @@ Pasha; Tauheed Khan Mohd.
 
 ## Get the complete R2 package
 
-The R2 source and metadata are available in this repository. The complete verified
-archive is prepared; uploading its GitHub release attachment and depositing the
-new Zenodo version are pending. The original v1.0.0 DOI below identifies the
-original release only.
+The R2 source, metadata and complete archive are now available in the
+[v2.0.0 GitHub release](https://github.com/NetNeuro/smart-building-bems/releases/tag/v2.0.0).
+Download the attached [complete R2 ZIP](https://github.com/NetNeuro/smart-building-bems/releases/download/v2.0.0/JER-D-26-02810_R2_Public_Reproducibility_v2.0.0.zip).
+Its public download was verified against the SHA-256 below. A new Zenodo version
+with this complete archive remains pending owner-account access. The original
+v1.0.0 DOI below identifies the original release only.
 
-Prepared archive: `JER-D-26-02810_R2_Public_Reproducibility_v2.0.0.zip`
+Published archive: `JER-D-26-02810_R2_Public_Reproducibility_v2.0.0.zip`
 
 Size: **253,518,518 bytes**
 

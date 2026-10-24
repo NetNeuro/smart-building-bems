@@ -1,10 +1,13 @@
 {
   "scientific_version": "R2-2026-10-22",
-  "planned_release": "v2.0.0",
-  "source_update_date": "2026-10-25",
-  "github_source": "Available in this commit",
-  "github_release_asset": "Pending upload",
-  "zenodo_new_version": "Pending authenticated deposit",
+  "release": "v2.0.0",
+  "github_source": "Published",
+  "github_release_asset": "Published; full public download checksum verified",
+  "github_release_url": "https://github.com/NetNeuro/smart-building-bems/releases/tag/v2.0.0",
+  "github_release_commit": "8ced9aa306ef4efa33896e87b292ba4ac185aaf7",
+  "zenodo_new_version": "Pending owner-account access",
   "original_zenodo_version_doi": "10.5281/zenodo.22253768",
-  "public_archive_sha256": "f234843a999c9884a5903a666ce23a5c98489109496d382540f20e1272864888"
+  "public_archive_bytes": 253518518,
+  "public_archive_sha256": "f234843a999c9884a5903a666ce23a5c98489109496d382540f20e1272864888",
+  "verified_on": "2026-10-25"
 }

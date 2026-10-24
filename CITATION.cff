@@ -1,55 +1,18 @@
 cff-version: 1.2.0
-title: >-
-  DOptDRPSNN-EMS: reproducibility package for IoT-enabled smart building energy
-  management with integrated load forecasting, anomaly detection and control
-message: >-
-  If you use this software or data, please cite both the software (this file)
-  and the associated journal article listed under preferred-citation.
+message: "Cite this version of the reproducibility software and data using its Zenodo version record."
 type: software
-authors:
-  - given-names: "Ahmad H."
-    family-names: "Milyani"
-    affiliation: "King Abdulaziz University, Jeddah, Saudi Arabia"
-  - given-names: "Arbab Mohammad"
-    family-names: "Kamal"
-    affiliation: "Indian Institute of Technology Patna, Patna, India"
-  - given-names: "Atif Mohammad"
-    family-names: "Kamal"
-    affiliation: "Indian Institute of Technology Patna, Patna, India"
-  - given-names: "Amjad Ali"
-    family-names: "Pasha"
-    affiliation: "King Abdulaziz University, Jeddah, Saudi Arabia"
-  - given-names: "Tauheed"
-    family-names: "Khan Mohd"
-    email: "tkhanmoh@emich.edu"
-    affiliation: "Eastern Michigan University, Ypsilanti, MI, USA"
-version: 1.0.0
-date-released: "2026-09-02"
-license: MIT
+title: "Integrated Load Forecasting and Anomaly-Gated Supervisory Replay for Building Energy Management — R2 reproducibility package"
+version: v2.0.0
 repository-code: "https://github.com/NetNeuro/smart-building-bems"
-# doi: add the Zenodo version DOI here after the first release
-keywords:
-  - building energy management
-  - internet of things
-  - load forecasting
-  - anomaly detection
-  - probabilistic spiking neural network
-  - supervisory control
-  - reproducibility
-preferred-citation:
-  type: article
-  title: >-
-    IoT-Enabled Smart Building Energy Management with Integrated Load
-    Forecasting, Anomaly Detection, and Control
-  authors:
-    - given-names: "Ahmad H."
-      family-names: "Milyani"
-    - given-names: "Arbab Mohammad"
-      family-names: "Kamal"
-    - given-names: "Atif Mohammad"
-      family-names: "Kamal"
-    - given-names: "Amjad Ali"
-      family-names: "Pasha"
-    - given-names: "Tauheed"
-      family-names: "Khan Mohd"
-  # journal, year and doi are added once the article is accepted
+authors:
+  - family-names: Milyani
+    given-names: Ahmad H.
+  - family-names: Alam
+    given-names: Md Mottahir
+  - family-names: Kamal
+    given-names: Atif Mohammad
+  - family-names: Pasha
+    given-names: Amjad Ali
+  - family-names: Khan Mohd
+    given-names: Tauheed
+abstract: "Reproducible building load forecasting, anomaly detection and prospective supervisory replay. Component-specific licenses and upstream attribution are included."

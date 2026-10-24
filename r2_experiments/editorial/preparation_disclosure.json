@@ -1,0 +1,12 @@
+{
+  "policy_url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+  "policy_updated": "June 2026",
+  "verified_on": "2026-10-22",
+  "methods_text": "ChatGPT/Codex (OpenAI; GPT-6 family; accessed 22 October 2026) assisted with drafting and debugging the revision analysis and plotting scripts. Reported numerical results and data visualizations were computed from the identified datasets by executing the archived scripts. Generative-image synthesis was not used to produce experimental data or research plots.",
+  "declaration_heading": "Declaration of generative AI and AI-assisted technologies in the manuscript preparation process",
+  "declaration_text": "During preparation of this revision, ChatGPT/Codex (OpenAI; GPT-6 family; accessed 22 October 2026) assisted with revision planning, literature and citation checks, code and plotting-script drafting, and language editing. Use of the tool followed the authors' revision instructions. The authors retain responsibility for the manuscript and its scientific interpretation.",
+  "author_review_note": "The publisher requires human author review, verification and final responsibility. Do not assert that all authors have already reviewed and approved generated outputs. Author review of the completed revision must occur before journal submission; once it has actually occurred the declaration may accurately confirm it.",
+  "explanatory_figure_note": "If ChatGPT/Codex assistance was used in producing or substantively revising explanatory diagrams, disclose the specific tool/model and actual role in each relevant caption as well as the general declaration. Data plots derived from archived scripts are covered in Methods. Do not invent historical tool/model provenance for unchanged original graphics.",
+  "neutral_filename_note": "Figure assets may use neutral scientific names. Filenames should not be used as a substitute for, or to defeat, required manuscript disclosures.",
+  "example_caption_suffix_if_applicable": "Diagram preparation was assisted by ChatGPT/Codex (OpenAI; GPT-6 family); the displayed structure follows the executable model and timing rules."
+}

@@ -1,38 +1,46 @@
 {
-  "title": "DOptDRPSNN-EMS: reproducibility package for IoT-enabled smart building energy management with integrated load forecasting, anomaly detection and control",
-  "description": "<p>Executable reproducibility package accompanying the paper. Contains the synthetic DOE-reference-inspired benchmark, leakage-controlled split definitions, the frozen canonical configuration, executable scripts for forecasting, ablation, ten-seed encoder-matched stability, anomaly calibration and supervisory-control experiments, and the exact raw per-seed outputs used to construct every reported mean and standard deviation.</p>",
+  "title": "Integrated Load Forecasting and Anomaly-Gated Supervisory Replay for Building Energy Management \u2014 R2 reproducibility package",
   "upload_type": "software",
-  "license": "MIT",
+  "version": "v2.0.0",
   "access_right": "open",
+  "license": "other-open",
   "creators": [
     {
-      "name": "Milyani, Ahmad H.",
-      "affiliation": "King Abdulaziz University, Jeddah, Saudi Arabia"
+      "name": "Milyani, Ahmad H."
     },
     {
-      "name": "Kamal, Arbab Mohammad",
-      "affiliation": "Indian Institute of Technology Patna, Patna, India"
+      "name": "Alam, Md Mottahir"
     },
     {
-      "name": "Kamal, Atif Mohammad",
-      "affiliation": "Indian Institute of Technology Patna, Patna, India"
+      "name": "Kamal, Atif Mohammad"
     },
     {
-      "name": "Pasha, Amjad Ali",
-      "affiliation": "King Abdulaziz University, Jeddah, Saudi Arabia"
+      "name": "Pasha, Amjad Ali"
     },
     {
-      "name": "Khan Mohd, Tauheed",
-      "affiliation": "Eastern Michigan University, Ypsilanti, MI, USA"
+      "name": "Khan Mohd, Tauheed"
     }
   ],
   "keywords": [
     "building energy management",
-    "internet of things",
     "load forecasting",
     "anomaly detection",
-    "probabilistic spiking neural network",
-    "supervisory control",
-    "reproducibility"
+    "prospective supervisory replay",
+    "Building Data Genome 2",
+    "reproducibility",
+    "probabilistic spiking neural network"
+  ],
+  "description": "Complete R2 numerical reproduction software/data: frozen benchmark, pinned BDG2 inputs, trained states, validation learning curves, predictions, calibration and prospective supervisory replay, paired uncertainty and verifiers. Software is MIT, author synthetic data/documentation are CC BY 4.0 where granted, and BDG2 inputs/derivatives retain their separate upstream Attribution-ShareAlike terms and source attribution. See the component license files; Other (Open) denotes this mixed-license collection and does not replace any component license. Journal correspondence and document-only assembly files are omitted. Scientific results remain unchanged.",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22253768",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/NetNeuro/smart-building-bems/releases/tag/v2.0.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
   ]
 }

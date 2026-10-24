@@ -1,0 +1,57 @@
+{
+  "locked_utc": "2026-10-22T09:23:15.871768+00:00",
+  "protocol_sha256": "b81688abd338c44e02340e1c1ac8401fef11bd112730b8ce51804c872b62d8ac",
+  "data_lock_sha256": "cf385b9f163680e0bb082b304224ab372a5773058193260276518c9241d157df",
+  "learning_curves_sha256": "066b76d2eff7ad1015d2313adefb949b9eaff55072939fcd3e1f7704ad9a108a",
+  "budget_trace_sha256": "140c3dca7e7f44938572131a707d301dc51fc347446b1b54cf10522cfa8790ff",
+  "terminal_epoch_cap": 40,
+  "choices": [
+    {
+      "model": "DRA_PSNN",
+      "selected_epoch": 37,
+      "mean_validation_RMSE_kWh": 17.481796799929725,
+      "updates_at_selected_epoch": 12284,
+      "selected_weight_sha256_by_seed": {
+        "11": "0cd757082171d7668cb15844a1b4c9f4952c93550ac619c2b4472474401143a0",
+        "23": "b65e6dcd60c5b80f66b911d2abf192aaf5c1411d08b87b34eb4450886305e767",
+        "37": "68690d2a18d70fe6d4c7cb8a332ece4f2e7f050eed5c077adafdfc54fbfeb23c"
+      }
+    },
+    {
+      "model": "DRA_GRU",
+      "selected_epoch": 25,
+      "mean_validation_RMSE_kWh": 17.60421388601215,
+      "updates_at_selected_epoch": 8300,
+      "selected_weight_sha256_by_seed": {
+        "11": "7d3cf67cbd46c7a504b362d667cb6ed330e2197d17fb93c18ad19aa2d1c0704f",
+        "23": "9e0f7eb7d835b984f32b3bfec615d92bc63bd03921aceb0c0d3fdba9e7300084",
+        "37": "d6129a2cbd0db8ef1eb3ee0d7b7889036bad1c18f91a2a4172acf2d9ed00be1f"
+      }
+    },
+    {
+      "model": "DRA_LSTM",
+      "selected_epoch": 27,
+      "mean_validation_RMSE_kWh": 17.484226667255673,
+      "updates_at_selected_epoch": 8964,
+      "selected_weight_sha256_by_seed": {
+        "11": "b96780bfc9e1c5ba4109f994fdc09126ec3257cdd1cfa3abde0ed3e03c8d5045",
+        "23": "7c99ec65f6904524062c7d63556a86ad2a50958b536e619bb6b2090e0d60065a",
+        "37": "e3517bb3146fc16b815baf5272a6bcbfa8c5f6c17c7a94f5994f1afd4baf7bd5"
+      }
+    },
+    {
+      "model": "Transformer",
+      "selected_epoch": 38,
+      "mean_validation_RMSE_kWh": 17.60057946682549,
+      "updates_at_selected_epoch": 12616,
+      "selected_weight_sha256_by_seed": {
+        "11": "9f3712faf425ed6157cc5f235263a47060f94ef162597a84a26c7030e5615ed9",
+        "23": "6f146b3611a8d2da2466e2ddcf13e3d2e5290e3be8eed220e91852cc42951bb3",
+        "37": "0b5d3768e371fe33335983328371b229d0818aa5cc73c72ec2c6c8fe5193651a"
+      }
+    }
+  ],
+  "no_new_2017_scores_used_for_decisions": true,
+  "still_budget_sensitive_at_maximum": false,
+  "prior_2017_status": "2017 results were already reported in R1; this is a reused-holdout robustness audit, not pristine external confirmation."
+}

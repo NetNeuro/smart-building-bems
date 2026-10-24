@@ -1,0 +1,135 @@
+{
+  "protocol_name": "R2 measured temporal forecasting budget and paired-uncertainty audit",
+  "frozen_utc": "2026-10-22T08:56:02.398142+00:00",
+  "source_lock_sha256": "3d5e278850d3f3a648fdaa8c3e282fafe851934ba904ca791dd9713c97e5c2bc",
+  "prior_holdout_status": "2017 results were already reported in R1; this is a reused-holdout robustness audit, not pristine external confirmation.",
+  "dataset_source": "9b97ccbe90096aff42ed4fd6493bf7ae692d7118",
+  "dataset_doi": "10.1038/s41597-020-00712-x",
+  "buildings": [
+    "Bear_education_Alvaro",
+    "Bear_assembly_Beatrice",
+    "Bobcat_education_Alissa",
+    "Bobcat_office_Alma",
+    "Bull_education_Annette",
+    "Bull_office_Anne",
+    "Crow_education_Kate",
+    "Crow_education_Keisha",
+    "Eagle_education_Alberto",
+    "Eagle_office_Amanda",
+    "Fox_education_Andre",
+    "Fox_office_Alice"
+  ],
+  "sites": [
+    "Bear",
+    "Bobcat",
+    "Bull",
+    "Crow",
+    "Eagle",
+    "Fox"
+  ],
+  "meter_selection": "First six lexicographic sites with >=2 eligible buildings; first Education and Office building per site where available, lexicographic fallback; eligibility uses ONLY Jan-Oct 2016: >=95% nonnegative finite meter values, median >1 kWh, SD >1 kWh, positive published floor area.",
+  "features": [
+    "airTemperature",
+    "dewTemperature",
+    "log_area",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "lag1",
+    "lag2",
+    "lag6",
+    "lag12",
+    "lag24",
+    "roll24"
+  ],
+  "hyperparameters": {
+    "channels": 20,
+    "lr": 0.0015287143259818435,
+    "dropout": 0.08,
+    "beta": 0.9431572529176961,
+    "theta": 0.36879562783560627,
+    "tau": 0.18,
+    "kappa": 0.35
+  },
+  "models": [
+    "DRA_PSNN",
+    "DRA_GRU",
+    "DRA_LSTM",
+    "Transformer"
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "window_hours": 24,
+  "horizon_hours": 1,
+  "train": "2016-01-01 through 2016-10-31",
+  "validation": "2016-11-01 through 2016-12-31",
+  "test": "full calendar 2017",
+  "data": "Exact R1 preprocessing and valid-window bindings. No changed buildings, cleaning, targets, imputation, normalizers or historical inputs.",
+  "training_pool": "All eligible Jan-Oct2016 sequences, expected84928; verified after exact preparation.",
+  "diagnostic_train_pool": "The original6800 evenly spaced eligible training sequence indices; eval mode only for learning curves.",
+  "batch_size": 256,
+  "epochs_initial": 10,
+  "epoch_caps": [
+    10,
+    20,
+    40
+  ],
+  "optimizer": "AdamW, original learning rate, weight_decay=0.0001, gradient_clip=5; no schedule or new hyperparameter search.",
+  "construction_and_training_seed_reset": true,
+  "threads": 2,
+  "validation_curve": "Every epoch: fixed diagnostic training and entire validation normalized objective MSE, meter RMSE and MAE; no 2017 losses in training script.",
+  "extension_rule": {
+    "mean_curve": "Arithmetic mean validation RMSE of seeds11,23,37, per architecture.",
+    "gain": "max(0,(min(m[1:E-5])-min(m[E-4:E]))/min(m[1:E-5]))",
+    "extend_if": "Any model gains at least0.005 in last5epochs, or earliest global minimum lies in last2epochs. Extend ALL models/seeds to next cap, preserving optimizer/RNG states.",
+    "maximum": 40,
+    "at_cap": "Record unresolved budget sensitivity and retain validation-selected checkpoint without a convergence claim."
+  },
+  "checkpoint_rule": "For each architecture choose earliest epoch attaining minimal mean validation RMSE across all3seeds. Use the same epoch for its3seeds. Never drop a seed or select using test.",
+  "update_landmarks": [
+    135,
+    540,
+    1350
+  ],
+  "update_landmark_scope": "Validation-only equal-update diagnostic; not equal-compute or pure sample-size causal attribution.",
+  "final_test_gate": "Create DECISIONS_LOCK.json with all budgets/checkpoints/validation hashes before score_test.py can read predictions or score2017.",
+  "uncertainty": {
+    "comparators": [
+      "Persistence",
+      "DRA_GRU",
+      "DRA_LSTM"
+    ],
+    "difference_direction": "DRA_PSNN minus comparator; negative favorsPSNN.",
+    "point_metrics": "Mean of three seed-specific pooled metrics, and paired per-building differences. Never substitute ensemble error.",
+    "primary_interval": "5000 paired moving-calendar-block resamples;14days; within calendar quarter; synchronized time draws across buildings/models/seeds; fixed12building panel.",
+    "site_time_sensitivity": "Resample six site clusters with replacement, retaining both buildings per chosen site; same synchronized quarter time blocks.",
+    "block_days": [
+      14,
+      7,
+      28
+    ],
+    "replicates": 5000,
+    "bootstrap_seed": 20261022,
+    "seed_handling": "Fitted seed models held fixed; initialization SD reported separately, not treated as building/time uncertainty.",
+    "missingness": "Resample complete calendar days including original common-row masks; recompute denominators. No hour-iid resampling or compression across gaps.",
+    "estimands": [
+      "pooled_delta_RMSE_kWh",
+      "pooled_delta_MAE_kWh",
+      "equal_building_delta_RMSE_kWh",
+      "equal_building_delta_CVRMSE_percentage_points"
+    ],
+    "inference_scope": "Pointwise95% exploratory percentile intervals conditional on selected data, fitted models and quarter-stratified2017 time process. Six deterministic sites do not justify population/site-transfer inference.",
+    "multiplicity": "No confirmatory ranking or superiority tests; comparators/secondary metrics exploratory; no economic or formal equivalence claim."
+  },
+  "legacy_preservation": "R1 five-epoch6800-window outputs remain separate fixed-budget reference; paired uncertainty is reported separately for legacy and validation-selected extended runs.",
+  "software": {
+    "python": "3.12.14",
+    "torch": "2.10.0+cpu",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}

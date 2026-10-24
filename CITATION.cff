@@ -16,3 +16,4 @@ authors:
   - family-names: Khan Mohd
     given-names: Tauheed
 abstract: "Reproducible building load forecasting, anomaly detection and prospective supervisory replay. Component-specific licenses and upstream attribution are included."
+doi: 10.5281/zenodo.23624304

@@ -1,5 +1,5 @@
 {
-  "title": "Integrated Load Forecasting and Anomaly-Gated Supervisory Replay for Building Energy Management \u2014 R2 reproducibility package",
+  "title": "Integrated Load Forecasting and Anomaly-Gated Supervisory Replay for Building Energy Management — R2 reproducibility package",
   "upload_type": "software",
   "version": "v2.0.0",
   "access_right": "open",
@@ -30,7 +30,7 @@
     "reproducibility",
     "probabilistic spiking neural network"
   ],
-  "description": "Complete R2 numerical reproduction software/data: frozen benchmark, pinned BDG2 inputs, trained states, validation learning curves, predictions, calibration and prospective supervisory replay, paired uncertainty and verifiers. Software is MIT, author synthetic data/documentation are CC BY 4.0 where granted, and BDG2 inputs/derivatives retain their separate upstream Attribution-ShareAlike terms and source attribution. See the component license files; Other (Open) denotes this mixed-license collection and does not replace any component license. Journal correspondence and document-only assembly files are omitted. Scientific results remain unchanged.",
+  "description": "R2 source code and release metadata for building load forecasting, anomaly detection and prospective supervisory replay. The complete numerical archive (frozen inputs, trained states, predictions and verifiers) is distributed as the GitHub v2.0.0 release attachment, identified by SHA-256 f234843a999c9884a5903a666ce23a5c98489109496d382540f20e1272864888. A source snapshot alone omits this large data/model archive. Software is MIT; author data/documentation retain CC BY 4.0 where granted; BDG2 inputs and derivatives retain separate upstream Attribution-ShareAlike terms. Component licenses and preparation disclosures are preserved.",
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.22253768",

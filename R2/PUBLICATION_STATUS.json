@@ -12,9 +12,11 @@
   "verified_on": "2026-10-25",
   "zenodo_source_version": "Published automatically by GitHub integration",
   "zenodo_version_doi": "10.5281/zenodo.23624585",
-  "zenodo_complete_archive": "Published; server MD5 matches local archive",
+  "zenodo_complete_archive": "Published; full public download SHA-256 verified",
   "zenodo_source_version_doi": "10.5281/zenodo.23624304",
   "zenodo_archival_version": "v2.0.0-complete",
   "zenodo_record_url": "https://zenodo.org/records/23624585",
-  "public_archive_md5": "cd72077fd828f078ae85e6176ec2d322"
+  "public_archive_md5": "cd72077fd828f078ae85e6176ec2d322",
+  "zenodo_download_bytes_verified": 253518518,
+  "zenodo_download_sha256_verified": "f234843a999c9884a5903a666ce23a5c98489109496d382540f20e1272864888"
 }

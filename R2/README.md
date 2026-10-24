@@ -1,1 +1,1 @@
-R2 public archive identity and release metadata. Use the complete v2.0.0 release asset for verification and retraining. Scientific source is also browsable under r2_experiments/; the asset includes the required historical source, full data and model states.
+R2 public archive identity and release metadata. Use the complete v2.0.1 release asset for verification and retraining. Scientific source is also browsable under r2_experiments/; the asset includes the required historical source, full data and model states.

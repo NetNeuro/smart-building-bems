@@ -7,15 +7,16 @@
     "Amjad Ali Pasha",
     "Tauheed Khan Mohd"
   ],
-  "public_version": "v2.0.0",
+  "public_version": "v2.0.1",
   "scientific_version": "R2-2026-10-22",
-  "public_packaging_date": "2026-10-24",
+  "public_packaging_date": "2026-10-25",
   "source_journal_archive_sha256": "810a6c8fa3feed8279df641007a02485e6b1c1fdcfcf0f02bbc89c2f9061d6d6",
-  "distribution": "Complete numerical reproduction asset intended for GitHub release and a new Zenodo version.",
+  "distribution": "Complete numerical reproducibility package; editorial metadata refresh. Scientific inputs, executable analysis, model states and numerical outputs remain unchanged.",
   "earlier_release": {
     "tag": "v1.0.0",
     "commit": "54552ef6693a25ced7150064e205e254d8ded715",
     "version_doi": "10.5281/zenodo.22253768",
     "concept_doi": "10.5281/zenodo.22253767"
-  }
+  },
+  "doi": "10.5281/zenodo.23624875"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Integrated Load Forecasting and Anomaly-Gated Supervisory Replay for Building Energy Management — R2 reproducibility package",
   "upload_type": "software",
-  "version": "v2.0.0",
+  "version": "v2.0.1",
   "access_right": "open",
   "license": "other-open",
   "creators": [
@@ -30,7 +30,7 @@
     "reproducibility",
     "probabilistic spiking neural network"
   ],
-  "description": "R2 source code and release metadata for building load forecasting, anomaly detection and prospective supervisory replay. The complete numerical archive (frozen inputs, trained states, predictions and verifiers) is published at Zenodo DOI 10.5281/zenodo.23624585, version v2.0.0-complete, and as the identical GitHub v2.0.0 release attachment (253,518,518 bytes; SHA-256 f234843a999c9884a5903a666ce23a5c98489109496d382540f20e1272864888). Packaging completion does not change scientific results. The earlier automatic source snapshot at 10.5281/zenodo.23624304 omits the large numerical archive. Software is MIT; author data/documentation retain CC BY 4.0 where granted; BDG2 inputs and derivatives retain separate upstream Attribution-ShareAlike terms. Component licenses and preparation disclosures are preserved.",
+  "description": "R2 reproducibility package v2.0.1: frozen inputs, model states, predictions, detector and prospective supervisory replay traces, source code and verifiers. Complete numerical archive: JER-D-26-02810_R2_Public_Reproducibility_v2.0.1.zip; 253517248 bytes; SHA-256 18a368a45fd7d94814dc320d0c1bc6394b09a3ffd5cede9db214eae121a19149. Full package DOI: 10.5281/zenodo.23624875. This revision refreshes editorial metadata; scientific inputs, executable analysis and numerical results remain unchanged. Software is MIT; author data/documentation retain CC BY 4.0 where granted; BDG2 material retains separate upstream Attribution-ShareAlike terms and attribution. Component license notices are included.",
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.22253768",
@@ -38,12 +38,12 @@
       "scheme": "doi"
     },
     {
-      "identifier": "https://github.com/NetNeuro/smart-building-bems/releases/tag/v2.0.0",
+      "identifier": "https://github.com/NetNeuro/smart-building-bems/releases/tag/v2.0.1",
       "relation": "isSupplementTo",
       "scheme": "url"
     },
     {
-      "identifier": "10.5281/zenodo.23624585",
+      "identifier": "10.5281/zenodo.23624875",
       "relation": "isSupplementTo",
       "scheme": "doi"
     }

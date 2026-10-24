@@ -1,9 +1,8 @@
 {
-  "filename": "JER-D-26-02810_R2_Public_Reproducibility_v2.0.0.zip",
-  "bytes": 253518518,
-  "sha256": "f234843a999c9884a5903a666ce23a5c98489109496d382540f20e1272864888",
-  "public_version": "v2.0.0",
+  "filename": "JER-D-26-02810_R2_Public_Reproducibility_v2.0.1.zip",
+  "bytes": 253517248,
+  "sha256": "18a368a45fd7d94814dc320d0c1bc6394b09a3ffd5cede9db214eae121a19149",
   "scientific_version": "R2-2026-10-22",
-  "manifested_files": 2264,
-  "source_journal_archive_sha256": "810a6c8fa3feed8279df641007a02485e6b1c1fdcfcf0f02bbc89c2f9061d6d6"
+  "public_version": "v2.0.1",
+  "zenodo_version_doi": "10.5281/zenodo.23624875"
 }

@@ -1,11 +1,13 @@
 {
   "source_archive_sha256": "810a6c8fa3feed8279df641007a02485e6b1c1fdcfcf0f02bbc89c2f9061d6d6",
   "scientific_version": "R2-2026-10-22",
-  "public_version": "v2.0.0",
-  "retained_source_files": 2254,
-  "excluded_journal_or_replaced_metadata_files": 100,
+  "public_version": "v2.0.1",
+  "retained_source_files": 2253,
+  "excluded_journal_or_replaced_metadata_files": 101,
   "scientific_payloads_unchanged": true,
   "private_journal_material": "Omitted from this public numerical distribution.",
   "public_wrapper_change": "The optional historical wrapper runs three numerical checks; the journal document-only fourth job is omitted.",
-  "figure_source_zip_retained": "sources/r1_package/JER_S105_Revision_20261012/upload/S105_figure_scripts(2).zip"
+  "figure_source_zip_retained": "sources/r1_package/JER_S105_Revision_20261012/upload/S105_figure_scripts(2).zip",
+  "previous_public_archive_sha256": "f234843a999c9884a5903a666ce23a5c98489109496d382540f20e1272864888",
+  "packaging_revision": "Editorial metadata refresh; numerical payloads unchanged."
 }

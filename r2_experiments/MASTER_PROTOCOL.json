@@ -39,5 +39,5 @@
     "Consolidated submission ZIP containing final documents and the separately hashed analysis ZIP"
   ],
   "archive_policy": "Do not claim the R2 package is already published under the old version DOI. Cite the exact supplementary analysis ZIP filename, version and SHA256. Exclude final R2 manuscripts from that analysis ZIP to prevent a circular archive checksum; include them in the consolidated submission ZIP.",
-  "integrity_policy": "No invented measurements, source code, DOIs, author approvals, human review claims, physical feedback, comfort validation or protective gating outcomes. Programmatic figures must derive from identified data; disclose AI assistance according to publisher policy."
+  "integrity_policy": "No invented measurements, source code, DOIs, author approvals, human review claims, physical feedback, comfort validation or protective gating outcomes. Programmatic figures must derive from identified data."
 }

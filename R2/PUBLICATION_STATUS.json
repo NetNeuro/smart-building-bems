@@ -1,15 +1,20 @@
 {
   "scientific_version": "R2-2026-10-22",
   "release": "v2.0.1",
-  "github_source": "Prepared",
-  "github_release_asset": "Upload pending",
+  "github_source": "Published",
+  "github_release_asset": "Published; GitHub SHA-256 matches verified package",
   "github_release_url": "https://github.com/NetNeuro/smart-building-bems/releases/tag/v2.0.1",
   "zenodo_version_doi": "10.5281/zenodo.23624875",
-  "zenodo_complete_archive": "Reserved draft; upload pending",
+  "zenodo_complete_archive": "Published; full public download SHA-256 verified",
   "original_zenodo_version_doi": "10.5281/zenodo.22253768",
   "public_archive_bytes": 253517248,
   "public_archive_sha256": "18a368a45fd7d94814dc320d0c1bc6394b09a3ffd5cede9db214eae121a19149",
   "public_archive_md5": "b8e90affd1f36b7a65effe8d390a12e3",
   "verification": "All numerical verifiers passed; 2263 manifested files",
-  "scientific_payloads_unchanged": true
+  "scientific_payloads_unchanged": true,
+  "github_release_commit": "1f314db3f832c47c336a9b1204bd9384d9ed03c3",
+  "zenodo_record_url": "https://zenodo.org/records/23624875",
+  "verified_on": "2026-10-25",
+  "original_release_reference_scan": "No matching references; 106 GitHub file hashes match scanned original Zenodo archive",
+  "current_source_reference_scan": "No matching references in published source snapshot"
 }

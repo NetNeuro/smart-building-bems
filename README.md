@@ -11,7 +11,7 @@ Pasha; Tauheed Khan Mohd.
 The R2 source, metadata and complete archive are now available in the
 [v2.0.1 GitHub release](https://github.com/NetNeuro/smart-building-bems/releases/tag/v2.0.1).
 Download the attached [complete R2 ZIP](https://github.com/NetNeuro/smart-building-bems/releases/download/v2.0.1/JER-D-26-02810_R2_Public_Reproducibility_v2.0.1.zip).
-The complete archive is identified by the SHA-256 below and is being deposited on [Zenodo: 10.5281/zenodo.23624875](https://doi.org/10.5281/zenodo.23624875),
+The complete archive is identified by the SHA-256 below and is published on [Zenodo: 10.5281/zenodo.23624875](https://doi.org/10.5281/zenodo.23624875),
 version **v2.0.1**. This version refreshes R2 editorial metadata
 without changing the scientific results. The earlier automatic GitHub source
 snapshot is separately preserved at [10.5281/zenodo.23624304](https://doi.org/10.5281/zenodo.23624304);

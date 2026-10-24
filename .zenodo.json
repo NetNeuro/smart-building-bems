@@ -41,11 +41,6 @@
       "identifier": "https://github.com/NetNeuro/smart-building-bems/releases/tag/v2.0.1",
       "relation": "isSupplementTo",
       "scheme": "url"
-    },
-    {
-      "identifier": "10.5281/zenodo.23624875",
-      "relation": "isSupplementTo",
-      "scheme": "doi"
     }
   ]
 }
